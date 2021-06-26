@@ -1,0 +1,15 @@
+*.json
+*.csv
+*.ckpt
+*.zip
+*.pickle
+__pycache__/
+data/*
+qa_pipeline/cache/*
+qa_pipeline/logs/*
+qa_pipeline/bestmodel/*
+qa_pipeline/data/*
+risk_pipeline/cache/*
+risk_pipeline/logs/*
+risk_pipeline/bestmodel/*
+risk_pipeline/data/*
