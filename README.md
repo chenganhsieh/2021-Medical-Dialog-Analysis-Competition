@@ -13,7 +13,7 @@
 * zh-core-web-md (spacy)
 * tqdm
 
-### nstalling from the source
+### Installing from the source
 ```shell
 pip install -r requirements.txt
 ```
