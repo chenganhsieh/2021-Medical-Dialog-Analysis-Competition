@@ -22,7 +22,7 @@ from transformers import (
     BertForSequenceClassification
 )
 from torch.utils.data import DataLoader 
-os.environ["CUDA_VISIBLE_DEVICES"] = "7" 
+# os.environ["CUDA_VISIBLE_DEVICES"] = "7" 
 seed_everything(42)
 
 def main(args):

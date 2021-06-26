@@ -113,7 +113,7 @@ if __name__ == "__main__":
     parser.add_argument('--log_dir', default='logs/',type=str,required=False)
     parser.add_argument("--max_seq_length", default=512, type=int)
     parser.add_argument("--num_labels", default=1, type=int)
-    parser.add_argument("--num_workers", default=32, type=int)
+    parser.add_argument("--w", default=32, type=int)
     parser.add_argument("--drop_out", default=0.1, type=int)
     parser.add_argument("--lr", default=3e-5, type=float) # 3e-6
     parser.add_argument("--weight_decay", default=0.0, type=float) # 3e-6 # bert-base-chinese(batch6 ac:2) #hfl/chinese-xlnet-mid #hfl/chinese-macbert-base  # hfl/chinese-electra-180g-base-discriminator
