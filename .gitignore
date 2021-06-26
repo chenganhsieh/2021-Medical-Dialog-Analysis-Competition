@@ -12,3 +12,4 @@ qa_pipeline/logs/neural/*
 risk_pipeline/cache/cached_*
 risk_pipeline/logs/prep/*
 risk_pipeline/logs/symptom/*
+test/*
